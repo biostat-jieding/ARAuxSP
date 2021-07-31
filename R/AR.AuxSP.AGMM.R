@@ -9,6 +9,7 @@
 #'
 #' @aliases AR.AuxSP.AGMM AR.AuxSP.AGMM.fit
 #'
+#'
 #' @inheritParams AR
 #' @param aux a list that should contain the auxiliary subgroup survival information.
 #' It has three elements:
