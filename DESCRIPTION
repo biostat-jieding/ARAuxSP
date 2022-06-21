@@ -1,0 +1,37 @@
+Package: ARAuxSP
+Title: Additive Risk Model with Heterogeneous Auxiliary Subgroup
+        Survival Information
+Version: 1.0.1
+Authors@R: 
+  c(
+  person(given = "Jie",
+         family = "Ding",
+         role = c("aut", "cre"),
+         email = "biostat_jieding@outlook.com",
+         comment = c(ORCID = "0000-0002-6083-7529")),
+  person(given = "Xiaoguang",
+         family = "Wang",
+         role = c("aut"),
+         email = "wangxg@dlut.edu.cn",
+         comment = c(ORCID = "0000-0002-5598-062X")),
+  person(given = "Jialiang", 
+         family = "Li", 
+         role = c("aut"),  
+         email = "jialiang@nus.edu.sg",
+         comment = c(ORCID = "..."))
+  )
+Author: Jie Ding [aut, cre], Xiaoguang Wang [aut], Jialiang Li [aut]
+Maintainer: Jie Ding <biostat_jieding@outlook.com>
+Description: Fit additive risk model with subgroup survival rates as 
+    auxiliary information (with potential heterogeneity).
+Imports: Matrix, survival, MASS
+Depends: R (>= 3.5.0), survival
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+URL: http://github.com/biostat-jieding/ARAuxSP
+BugReports: http://github.com/biostat-jieding/ARAuxSP/issues
+NeedsCompilation: no
+Packaged: 2022-06-21 09:04:44 UTC; biost
